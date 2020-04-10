@@ -1,3 +1,15 @@
+
+/* Enlarge links in navbar */
+.link-item {
+    transition: 0.8s;
+}
+
+.link-item:hover {
+    transform: scale(1.4);
+}
+
+
+/* Footer */
 .footer {
     position: fixed;
     left: 0;
@@ -6,35 +18,48 @@
     text-align: center;
  }
 
- .gallery {
+ /* For app.html / Hello World -page */
+#hello {
+    position: relative;
+    font-size: 6em;
+    animation: mymove 3s infinite;
+    color: rgb(92, 88, 88);
+}
+
+@keyframes mymove {
+    from {top: 400px; font-size: 0.1em;}
+    to {top: 0px;}
+  }
+
+
+
+/* For gallery on inspiration page */
+.gallery {
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
     -webkit-column-width: 33%;
     -moz-column-width: 33%;
-    column-width: 33%; }
-    .gallery .pics {
-    -webkit-transition: all 350ms ease;
-    transition: all 350ms ease; }
-    .gallery .animation {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1); }
+    column-width: 33%; 
+}
+    
     
     @media (max-width: 450px) {
-    .gallery {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-    -webkit-column-width: 100%;
-    -moz-column-width: 100%;
-    column-width: 100%;
-    }
+        .gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
+        }
     }
     
     @media (max-width: 400px) {
-    .btn.filter {
-    padding-left: 1.1rem;
-    padding-right: 1.1rem;
+        .btn.filter {
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+        }
     }
-    }
+
+
