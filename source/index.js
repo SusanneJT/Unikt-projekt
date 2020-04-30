@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { PanoramaBox } from "./components/panorama-box";
+import { AppRouter } from "./components/app-router";
 
 
 const wrapper = document.getElementById("container");
-wrapper ? ReactDOM.render(<PanoramaBox />, wrapper) : false;
+wrapper ? ReactDOM.render(<AppRouter />, wrapper) : false;
