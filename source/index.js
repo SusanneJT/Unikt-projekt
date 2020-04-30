@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { HelloWorldApp } from "./components/helloworld";
+import { PanoramaBox } from "./components/panorama-box";
+
 
 const wrapper = document.getElementById("container");
-wrapper ? ReactDOM.render(<HelloWorldApp />, wrapper) : false;
+wrapper ? ReactDOM.render(<PanoramaBox />, wrapper) : false;
