@@ -11,7 +11,7 @@ export class PanoramaBox extends React.Component {
             width: "100%"
           };
 		return (
-            <div class="panorama" style={styleDiv}>
+            <div className="panorama" style={styleDiv}>
 			    <img src="/img/components/panorama-nature.jpg" style={stylePic}/>
                 <TextCircle />
 		    </div>

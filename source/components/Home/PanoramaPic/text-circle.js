@@ -16,8 +16,8 @@ export class TextCircle extends React.Component {
 		  };
 		  const styleH2 = {
 			position: "absolute",
-			top: "0%",
-			left: "22%",
+			top: "6%",
+			left: "20%",
 			width: "100%",
 			color: "#1E2F13",
 			fontSize: "1.6em",
@@ -25,8 +25,8 @@ export class TextCircle extends React.Component {
 			fontWeight: "200"
 		  }
 		return (
-			<div class="text-circle" style={styleCircle}>
-				<h2 style={styleH2}>För miljön<br /> ..och för dig</h2>
+			<div className="text-circle" style={styleCircle}>
+				<h2 style={styleH2}>En liten text<br /> ..och lite till</h2>
 			</div>
 		);
 	}
