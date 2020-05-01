@@ -1,30 +1,29 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import { Home } from "./home";
-import { About } from "./about";
+import { Home } from "./Home/home";
+import { Dam } from "./dam";
+import { Herr } from "./herr";
+import { Barn } from "./barn";
+import { Menu } from "./menu";
 
 
 export class AppRouter extends React.Component {
   render() {
     return (
-    <Router>
+      <Router>
         <div>
-          <h2>Unikt.se</h2>
-          <nav>
-          <ul>
-            <li><Link to={'/'}> Home </Link></li>
-            <li><Link to={'/about'}>About</Link></li>
-          </ul>
-          </nav>
-          <hr />
+          <Menu />
           <Switch>
-              <Route exact path='/' component={Home} />
-              <Route path='/about' component={About} />
+              <Route exact path='/app.html' component={Home} />
+              <Route path='/dam' component={Dam} />
+              <Route path='/herr' component={Herr} />
+              <Route path='/barn' component={Barn} />
           </Switch>
-        </div>
+        </div> 
       </Router>
     );
   }
 }
 
-//export default AppRouter;
+
+
