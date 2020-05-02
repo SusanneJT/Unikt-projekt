@@ -5,7 +5,8 @@ module.exports = {
 	  app: __dirname + "/source"
   },
   output: {
-	  path: __dirname + "/public"
+    path: __dirname + "/public",
+    publicPath: '/app.html'
   },
   module: {
     rules: [
@@ -31,5 +32,8 @@ module.exports = {
       template: "./source/app.html",
       filename: "./app.html"
     })
-  ]
+  ],
+  devServer: {
+    historyApiFallback: true
+  }
 };
