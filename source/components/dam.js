@@ -5,7 +5,7 @@ export class Dam extends React.Component {
 	render() {
 		return (
 			<div>
-				<h1>Dam</h1>
+				<h1 style={{textAlign: "center"}}>Dam</h1>
 				<RenderProducts category={"Dam"} />
 			</div>
 			
