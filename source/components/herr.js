@@ -1,12 +1,11 @@
 import React from "react";
-import {RenderProducts} from "./Product/renderProduct";
+import { ProductGallery } from "./Product/productGallery";
 
 export class Herr extends React.Component {
 	render() {
 		return (
 			<div>
-				<h1>Herr</h1>
-                <RenderProducts category={"Herr"}/>
+                <ProductGallery category={"Herr"}/>
 			</div>
 		);
 	}

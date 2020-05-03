@@ -4,7 +4,6 @@ export class TextCircle extends React.Component {
 	render() {
         const styleCircle = {
             position: "absolute",
-		    top: "10%",
 		    left: "5%",
 		    backgroundImage: "linear-gradient(to right,#97A88B, #E9E9E9, #97A88B)",
 		    width: "22%",
