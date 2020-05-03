@@ -4,7 +4,9 @@ import { Home } from "./Home/home";
 import { Dam } from "./dam";
 import { Herr } from "./herr";
 import { Barn } from "./barn";
+import { AddProductPage } from "./AddProduct/addProductPage";
 import { Menu } from "./menu";
+
 
 
 export class AppRouter extends React.Component {
@@ -18,6 +20,7 @@ export class AppRouter extends React.Component {
               <Route path='/dam' component={Dam} />
               <Route path='/herr' component={Herr} />
               <Route path='/barn' component={Barn} />
+              <Route path='/addProductPage' component={AddProductPage} />
           </Switch>
         </div> 
       </Router>

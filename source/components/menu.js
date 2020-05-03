@@ -11,19 +11,23 @@ export class Menu extends React.Component {
             fontSize: "1.8vW",
             fontFamily: "Arial",
             fontWeight: "200",
-            marginTop: "-10%"
+            marginTop: "-10%",
         }
         const styleH2 = {
-          color: "#97A88B",
-          fontSize: "4.8vW",
-          fontFamily: "Arial",
+            color: "#97A88B",
+            fontSize: "4.8vW",
+            fontFamily: "Arial",
+            textAlign: "center"
         }
 		return (
-            <div style={{textAlign: "center"}}>
-                <Link style={{textDecoration: "none"}} to={'/app.html'}> 
-                <h2 style={styleH2}>Unikt.se</h2>
+            <div>
+                <Link to={'/addProductPage'}> 
+                    <button>Lägg till produkt</button>
                 </Link>
-                <nav>
+                <Link style={{textDecoration: "none"}} to={'/app.html'}> 
+                    <h2 style={styleH2}>Unikt.se</h2>
+                </Link>
+                <nav style={{textAlign: "center"}}>
                 <ul>
                     <li style={styleLinks}><Link style={styleLinks} to={'/dam'}>Dam</Link></li>
                     <li style={styleLinks}><Link style={styleLinks} to={'/herr'}>Herr</Link></li>
