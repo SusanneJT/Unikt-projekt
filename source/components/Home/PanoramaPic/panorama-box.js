@@ -12,8 +12,8 @@ export class PanoramaBox extends React.Component {
           };
 		return (
             <div className="panorama" style={styleDiv}>
-			    <img src="/img/components/panorama-nature.jpg" style={stylePic}/>
                 <TextCircle />
+			    <img src="/img/components/panorama-nature.jpg" style={stylePic}/>
 		    </div>
 		);
 	}

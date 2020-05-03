@@ -5,9 +5,13 @@ import { Product } from "./product";
 export class RenderProducts extends React.Component {
 	render() { 
         const category = this.props.category;
+        const onlySelected = this.props.onlySelected;
         const rows = [];
 
         Products.map(function(item){
+            if (onlySelected && !item.selected) {
+                return;
+            }
             if(item.category == category){
                 rows.push(
                         <div key={item.id.toString()}>
@@ -18,8 +22,7 @@ export class RenderProducts extends React.Component {
                         </div>
                 );
             }
-        })
-         
+        })   
 		return (
             <div>{rows}</div>
 		);

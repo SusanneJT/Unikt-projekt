@@ -1,12 +1,12 @@
 import React from "react";
-import {RenderProducts} from "./Product/renderProduct";
+//import {RenderProducts} from "./Product/renderProduct";
+import { ProductGallery } from "./Product/productGallery";
 
 export class Dam extends React.Component {
 	render() {
 		return (
 			<div>
-				<h1 style={{textAlign: "center"}}>Dam</h1>
-				<RenderProducts category={"Dam"} />
+				<ProductGallery category={"Dam"} />
 			</div>
 			
 		);
