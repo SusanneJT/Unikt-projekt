@@ -1,0 +1,56 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "price": "830",
+        "name": "Tröja",
+        "category": "Dam",
+        "selected": true
+      },
+      {
+        "id": 2,
+        "price": "530",
+        "name": "Byxa",
+        "category": "Herr",
+        "selected": false
+      },
+      {
+        "id": 3,
+        "price": "530",
+        "name": "Strumpa",
+        "category": "Herr",
+        "selected": false
+      },
+      {
+        "id": 8,
+        "price": "530",
+        "name": "teststrumpa",
+        "category": "Herr",
+        "selected": false
+      },
+      {
+        "id": 10,
+        "price": "530",
+        "name": "testsko",
+        "category": "Barn",
+        "selected": true
+      },
+      {
+        "price": "530",
+        "name": "testId",
+        "category": "Barn",
+        "selected": true,
+        "id": 11
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
