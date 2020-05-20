@@ -1,56 +1,148 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "price": "830",
-        "name": "Tröja",
-        "category": "Dam",
-        "selected": true
-      },
-      {
-        "id": 2,
-        "price": "530",
-        "name": "Byxa",
-        "category": "Herr",
-        "selected": false
-      },
-      {
-        "id": 3,
-        "price": "530",
-        "name": "Strumpa",
-        "category": "Herr",
-        "selected": false
-      },
-      {
-        "id": 8,
-        "price": "530",
-        "name": "teststrumpa",
-        "category": "Herr",
-        "selected": false
-      },
-      {
-        "id": 10,
-        "price": "530",
-        "name": "testsko",
-        "category": "Barn",
-        "selected": true
-      },
-      {
-        "price": "530",
-        "name": "testId",
-        "category": "Barn",
-        "selected": true,
-        "id": 11
-      }
-    ],
-    "comments": [
-      {
-        "id": 1,
-        "body": "some comment",
-        "postId": 1
-      }
-    ],
-    "profile": {
-      "name": "typicode"
+  "products": [
+    {
+      "id": 1,
+      "price": "830",
+      "name": "Tröja",
+      "category": "Dam",
+      "description": "",
+      "selected": true
+    },
+    {
+      "id": 2,
+      "price": "530",
+      "name": "Byxa",
+      "category": "Herr",
+      "description": "",
+      "selected": false
+    },
+    {
+      "id": 3,
+      "price": "530",
+      "name": "Strumpa",
+      "category": "Herr",
+      "description": "",
+      "selected": false
+    },
+    {
+      "id": 8,
+      "price": "530",
+      "name": "teststrumpa",
+      "category": "Herr",
+      "description": "",
+      "selected": false
+    },
+    {
+      "id": 10,
+      "price": "530",
+      "name": "testsko",
+      "category": "Barn",
+      "description": "",
+      "selected": true
+    },
+    {
+      "price": "530",
+      "name": "testId",
+      "category": "Barn",
+      "selected": true,
+      "description": "",
+      "id": 11
+    },
+    {
+      "price": "430",
+      "name": "testProduct",
+      "category": "Barn",
+      "selected": true,
+      "description": "",
+      "id": 14
+    },
+    {
+      "category": "Dam",
+      "name": "Boll",
+      "price": "890",
+      "selected": false,
+      "description": "",
+      "id": 15
+    },
+    {
+      "category": "Dam",
+      "name": "Hatt",
+      "price": "898",
+      "description": "Fräsig solhatt gjord av återvunna strumpor",
+      "selected": true,
+      "id": 16
+    },
+    {
+      "category": "Dam",
+      "name": "Kjol",
+      "price": "2800",
+      "description": "Vit tyllkjol av ekologiskt toalettpapper",
+      "picName": "apa.jpg",
+      "selected": true,
+      "id": 17
+    },
+    {
+      "category": "Dam",
+      "name": "Klänning",
+      "price": "899",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "picName": "klanning.jpg",
+      "selected": false,
+      "id": 18
+    },
+    {
+      "category": "Dam",
+      "name": "Tröja",
+      "price": "450",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "picName": "sweater.jpg",
+      "selected": true,
+      "id": 19
+    },
+    {
+      "category": "Dam",
+      "name": "Test klänning",
+      "price": "568",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "picName": "testbild.jpg",
+      "selected": true,
+      "id": 20
+    },
+    {
+      "category": "Dam",
+      "name": "test",
+      "price": "456",
+      "description": "test",
+      "picName": "abc",
+      "selected": false,
+      "id": 21
+    },
+    {
+      "category": "Barn",
+      "name": "Keps",
+      "price": "458",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "picName": "bild.jpg",
+      "selected": false,
+      "id": 22
+    },
+    {
+      "category": "Barn",
+      "name": "Keps",
+      "price": "458",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "picName": "bild.jpg",
+      "selected": false,
+      "id": 23
+    },
+    {
+      "category": "Herr",
+      "name": "sko",
+      "price": "899",
+      "description": "En vänstersko i storlek 48",
+      "picName": "bild.jpg",
+      "selected": false,
+      "id": 24
     }
-  }
+  ]
+}
