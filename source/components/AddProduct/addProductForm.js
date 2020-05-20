@@ -1,16 +1,17 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import { AddProduct } from "../Product/addProduct";
 
 export function AddProductForm() {
     const { register, handleSubmit, errors } = useForm();
       
-    const onSubmit = data => {
-        const lsProducts = JSON.parse(localStorage.getItem('products')) || [];
-        lsProducts.push(data);
-        localStorage.setItem('products', JSON.stringify(lsProducts));
+    async function onSubmit (data) {
+        await AddProduct(data);
+        
+        //Should be checking for error before
         event.target.reset();
         alert(data.name + " Är tillagd")
-    };
+    }
 
     const inputStyle = {
         width: "100%",
@@ -42,10 +43,14 @@ export function AddProductForm() {
             {errors.pris && <span style={{color: "red"}}>Du måste ange ett pris över 1 kr<br/></span>}
             <br/>
 
-            <label>Unikt id</label>
-            <input style={inputStyle} type="number" placeholder="id" name="id" ref={register({required: true, max: 10000, min: 100})} />
-            {errors.id && <span style={{color: "red"}}>Du måste ange ett unikt id med minst tre siffror<br/></span>}
-            <br/> 
+            <label>Beskrivning</label>
+            <textarea style={inputStyle} type="text" placeholder="beskrivning" name="description" ref={register({required: true})} />
+            {errors.pris && <span style={{color: "red"}}>Du måste ange en beskrivning av varan<br/></span>}
+            <br/>
+
+            <label>Bildnamn</label>
+            <input style={inputStyle} type="text" placeholder="bildnamn" name="picName" ref={register({required: true, maxLength: 40})} />
+            {errors.name && <span style={{color: "red"}}>Du måste ange ett filnamn för bilden<br/></span>}<br/>
 
             <label>Utvald</label>
             <input type="checkbox" placeholder="selected" name="selected" ref={register} /><br/><br/>
