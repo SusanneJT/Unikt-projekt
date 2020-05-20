@@ -9,14 +9,14 @@ Moderna Webbapplikationer
 
 För att använda/starta projektet används följande kommandon:
 
-*npm install 
+<li>npm install</li> 
 *(installerar node modules och andra paket)*
 
-*npm run build 
+<li>npm run build</li> 
 *(för att bygga och kompilera)*
 
-*npm run server 
+<li>npm run server</li> 
 *(för att starta json server)*
 
-*npm start 
+<li>npm start</li> 
 *(för starta applikationen och öppna i webbläsaren)*
