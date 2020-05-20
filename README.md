@@ -6,6 +6,8 @@ Moderna Webbapplikationer
 
 2020-05-03 : Inlämningsuppgift 3: The proof of concept
 
+2020-05-20 : Inlämningsuppgift 4: Från koncept till prototyp
+
 
 För att använda/starta projektet används följande kommandon:
 
