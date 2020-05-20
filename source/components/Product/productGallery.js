@@ -2,6 +2,7 @@ import React from "react";
 import {RenderProducts} from "./renderProduct";
 import {SelectionProducts} from "./selectionProducts";
 
+
 export class ProductGallery extends React.Component {
     constructor(props) {
         super(props);

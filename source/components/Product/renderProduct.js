@@ -1,5 +1,5 @@
 import React from "react";
-import { GetProducts } from "./getProducts";
+import { GetProducts } from "../API-Communication/getProducts";
 import { Product } from "./product";
 
 export class RenderProducts extends React.Component {
@@ -9,7 +9,6 @@ export class RenderProducts extends React.Component {
     }
     async componentDidMount() {
         const response = await GetProducts("/");
-        //const json = await response.json();
         this.setState({ products: response });
         console.log(await response);
     }
