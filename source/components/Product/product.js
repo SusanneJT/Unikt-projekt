@@ -1,4 +1,5 @@
 import React from "react";
+import { ProductModal } from "./productModal";
 
 export class Product extends React.Component {
 	render() {
@@ -24,7 +25,8 @@ export class Product extends React.Component {
                 <img src="https://via.placeholder.com/180x220" />
                 <div>
                     <h5>{name}</h5>
-                    <button style={buttonStyle}>{price}:-</button>
+                    <p>{price}</p>
+                    <ProductModal  productName={this.props.name}/>
                 </div>
             </div>
 		);
