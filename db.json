@@ -143,6 +143,15 @@
       "picName": "bild.jpg",
       "selected": false,
       "id": 24
+    },
+    {
+      "category": "Herr",
+      "name": "Högersko",
+      "price": "850",
+      "description": "Beskrivning",
+      "picName": "bild.jpg",
+      "selected": false,
+      "id": 25
     }
   ]
 }

@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import { Home } from "./Home/home";
+import { Home } from "./Home-page/home";
 import { Dam } from "./dam";
 import { Herr } from "./herr";
 import { Barn } from "./barn";
-import { AddProductPage } from "./AddProduct/addProductPage";
+import { AddProductPage } from "./AddProduct-page/addProductPage";
 import { Menu } from "./menu";
 
 
