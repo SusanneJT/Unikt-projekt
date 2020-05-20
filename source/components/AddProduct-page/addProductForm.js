@@ -8,7 +8,7 @@ export function AddProductForm() {
     async function onSubmit (data) {
         await AddProduct(data);
         
-        //Should be checking for error before
+        //Should be checking response status before 
         event.target.reset();
         alert(data.name + " Är tillagd")
     }
