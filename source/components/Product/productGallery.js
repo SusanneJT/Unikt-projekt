@@ -1,6 +1,7 @@
 import React from "react";
 import {RenderProducts} from "./renderProduct";
 import {SelectionProducts} from "./selectionProducts";
+import Container from 'react-bootstrap/Container';
 
 
 export class ProductGallery extends React.Component {
@@ -28,10 +29,12 @@ export class ProductGallery extends React.Component {
                     onOnlySelectedChange={this.HandleOnlySelectedChange}
                 />
                 <h1 style={{textAlign: "center"}}>{this.props.category}</h1>
-                <RenderProducts 
-                    category={category} 
-                    onlySelected={this.state.onlySelected}
-                />
+                <Container fluid>
+                    <RenderProducts 
+                        category={category} 
+                        onlySelected={this.state.onlySelected}
+                    />
+                </Container>
 			</div>	
 		);
 	}

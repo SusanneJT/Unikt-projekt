@@ -4,18 +4,21 @@ import React from "react";
 export class Footer extends React.Component {
 	render() {
         const styleDiv = {
-            marginTop: "4vw",
+            clear: "both",
             height: "15vw",
             padding: "8px",
+            marginBottom: "6vw",
         }
         const styleH2 = {
             color: "#97A88B",
             fontSize: "4.8vW",
+            marginTop: "7vw",
             fontFamily: "Arial",
             textAlign: "center"
         }
         const styleU = {
             color: "#1E2F13",
+            marginTop: "7vw",
             fontSize: "6vw",
         }
 		return (

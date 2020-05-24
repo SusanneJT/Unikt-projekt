@@ -1,15 +1,16 @@
 import React from "react";
 import { ProductModal } from "./productModal";
 
+
 export class Product extends React.Component {
 	render() {
-        const name = this.props.name;
-        const price = this.props.price;
+        const product = this.props.product
+        const name = this.props.product.name;
+        const price = this.props.product.price;
+        const imgName = this.props.product.picName;
 
         const productDiv = {
-            float: "left",
             margin: "1%",
-            width: "16%",
             textAlign: "center"
         }
         const buttonStyle = {
@@ -19,14 +20,15 @@ export class Product extends React.Component {
             fontSize: "1.3vW",
 			fontFamily: "garamond",
         }
+        
           
 		return (
             <div style={productDiv}>
-                <img src="https://via.placeholder.com/180x220" />
+                <img src={'./img/productImages/' + imgName} />
                 <div>
-                    <h5>{name}</h5>
-                    <p>{price}</p>
-                    <ProductModal  productName={this.props.name}/>
+                    <h5 style={{color: "#1E2F13"}}>{name}</h5>
+                    <p>{price} :-</p>
+                    <ProductModal  product={product}/>
                 </div>
             </div>
 		);

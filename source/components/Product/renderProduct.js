@@ -1,6 +1,8 @@
 import React from "react";
 import { GetProducts } from "../API-Communication/getProducts";
 import { Product } from "./product";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Row';
 
 export class RenderProducts extends React.Component {
     constructor() {
@@ -17,6 +19,10 @@ export class RenderProducts extends React.Component {
         const onlySelected = this.props.onlySelected;
         const products = this.state.products;
         const rows = [];
+        
+        const styleCol = {
+            margin: "2vw",
+        }
 
 
         products.map(function(item){
@@ -25,17 +31,16 @@ export class RenderProducts extends React.Component {
             }
             if(item.category == category){
                 rows.push(
-                        <div key={item.id.toString()}>
+                        <Col style={styleCol} key={item.id.toString()}>
                             <Product 
-                                name={item.name} 
-                                price={item.price}
+                                product={item}
                             />
-                        </div>
+                        </Col>
                 );
             }
         })   
 		return (
-            <div>{rows}</div>
+            <Row>{rows}</Row>
 		);
 	}
 }
