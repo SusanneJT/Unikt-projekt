@@ -3,155 +3,92 @@
     {
       "id": 1,
       "price": "830",
-      "name": "Tröja",
+      "name": "Beige tröja",
       "category": "Dam",
-      "description": "",
+      "picName": "Beigetroja.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       "selected": true
     },
     {
       "id": 2,
       "price": "530",
-      "name": "Byxa",
-      "category": "Herr",
-      "description": "",
+      "name": "Brun kjol",
+      "category": "Dam",
+      "picName": "brunKjol.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       "selected": false
     },
     {
       "id": 3,
-      "price": "530",
-      "name": "Strumpa",
-      "category": "Herr",
-      "description": "",
-      "selected": false
-    },
-    {
-      "id": 8,
-      "price": "530",
-      "name": "teststrumpa",
-      "category": "Herr",
-      "description": "",
-      "selected": false
-    },
-    {
-      "id": 10,
-      "price": "530",
-      "name": "testsko",
-      "category": "Barn",
-      "description": "",
+      "price": "1830",
+      "name": "Grå klänning",
+      "category": "Dam",
+      "picName": "GraKlanning.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       "selected": true
     },
     {
-      "price": "530",
-      "name": "testId",
-      "category": "Barn",
+      "id": 4,
+      "price": "830",
+      "name": "Brun tröja",
+      "category": "Dam",
+      "picName": "stickadTroja.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "selected": false
+    },
+    {
+      "id": 5,
+      "price": "1250",
+      "name": "Gul kjol",
+      "category": "Dam",
+      "picName": "Gulkjol.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "selected": true
+    },
+    {
+      "id": 6,
+      "price": "1250",
+      "name": "Svart klänning",
+      "category": "Dam",
+      "picName": "svartKlanning2.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "selected": false
+    },
+    {
+      "id": 7,
+      "price": "1250",
+      "name": "Grårutig kjol",
+      "category": "Dam",
+      "picName": "Grarutigkjol.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "selected": true
+    },
+    {
+      "category": "Dam",
+      "name": "Mönstrad poncho",
+      "price": "950",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "picName": "Multifargadponcho.jpg",
       "selected": true,
-      "description": "",
-      "id": 11
-    },
-    {
-      "price": "430",
-      "name": "testProduct",
-      "category": "Barn",
-      "selected": true,
-      "description": "",
-      "id": 14
-    },
-    {
-      "category": "Dam",
-      "name": "Boll",
-      "price": "890",
-      "selected": false,
-      "description": "",
-      "id": 15
-    },
-    {
-      "category": "Dam",
-      "name": "Hatt",
-      "price": "898",
-      "description": "Fräsig solhatt gjord av återvunna strumpor",
-      "selected": true,
-      "id": 16
-    },
-    {
-      "category": "Dam",
-      "name": "Kjol",
-      "price": "2800",
-      "description": "Vit tyllkjol av ekologiskt toalettpapper",
-      "picName": "apa.jpg",
-      "selected": true,
-      "id": 17
-    },
-    {
-      "category": "Dam",
-      "name": "Klänning",
-      "price": "899",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "picName": "klanning.jpg",
-      "selected": false,
-      "id": 18
-    },
-    {
-      "category": "Dam",
-      "name": "Tröja",
-      "price": "450",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "picName": "sweater.jpg",
-      "selected": true,
-      "id": 19
-    },
-    {
-      "category": "Dam",
-      "name": "Test klänning",
-      "price": "568",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "picName": "testbild.jpg",
-      "selected": true,
-      "id": 20
-    },
-    {
-      "category": "Dam",
-      "name": "test",
-      "price": "456",
-      "description": "test",
-      "picName": "abc",
-      "selected": false,
-      "id": 21
-    },
-    {
-      "category": "Barn",
-      "name": "Keps",
-      "price": "458",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "picName": "bild.jpg",
-      "selected": false,
-      "id": 22
-    },
-    {
-      "category": "Barn",
-      "name": "Keps",
-      "price": "458",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "picName": "bild.jpg",
-      "selected": false,
-      "id": 23
+      "id": 8
     },
     {
       "category": "Herr",
-      "name": "sko",
-      "price": "899",
-      "description": "En vänstersko i storlek 48",
-      "picName": "bild.jpg",
-      "selected": false,
-      "id": 24
+      "name": "Testprodukt",
+      "price": "500",
+      "description": "En beskrivning av varan",
+      "picName": "test.jpg",
+      "selected": true,
+      "id": 9
     },
     {
-      "category": "Herr",
-      "name": "Högersko",
-      "price": "850",
-      "description": "Beskrivning",
-      "picName": "bild.jpg",
-      "selected": false,
-      "id": 25
+      "category": "Dam",
+      "name": "Mönstrad klänning",
+      "price": "1800",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "picName": "Monstradklanning.jpg",
+      "selected": true,
+      "id": 10
     }
   ]
 }
