@@ -9,11 +9,25 @@ export class RenderProducts extends React.Component {
         super();
         this.state = { products: [] };
     }
-    async componentDidMount() {
+    /*async componentDidMount2() {
         const response = await GetProducts("/");
         this.setState({ products: response });
         console.log(await response);
+    }*/
+
+    async componentDidMount() {
+        const promise = new Promise((resolve) => {
+            const getProducts = GetProducts("/");
+            resolve(getProducts);
+        });
+        promise.then((result) => {
+            //console.log(result.data);
+            this.setState({ products: result.data });
+        }).catch((error) => {
+            console.log(error + " -Produkterna Kunde inte hämtas!");
+        })
     }
+
 	render() { 
         const category = this.props.category;
         const onlySelected = this.props.onlySelected;
