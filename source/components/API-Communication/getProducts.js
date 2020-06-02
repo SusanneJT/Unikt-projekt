@@ -1,6 +1,16 @@
+import axios from 'axios';
+
 export async function GetProducts(url) {
-    const response = await fetch(`http://localhost:3000/products` + url);
-    const json = await response.json();
-    //console.log(response.status);
-    return json;
+    return axios.get(`http://localhost:3000/products` + url);
 }
+
+
+
+
+/*
+.then(function(response) {
+    console.log(response.data);
+ }).catch(function(error) {
+    console.log(error.response.data);
+ });
+ */ 
