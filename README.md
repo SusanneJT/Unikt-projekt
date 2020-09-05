@@ -1,15 +1,28 @@
 # Unikt.se
 
 Moderna Webbapplikationer
+Ett längre projekt från kursen moderna webbapplikationer där målet var att utveckla en prototyp för en egen affärsidé utifrån kursens innehåll.
 
-2020-04-10 : Inlämningsuppgift 1: En god start
+Kursens innehåll:
+Fördjupning HTML5, CSS3 och Javascript
+SPA (Single Page Application)
+Lagring av data i webbläsare, exempelvis cookies, Web Storage och IndexedDB
+Moderna JavaScript ramverk, exempelvis Angular, React eller Vue
+Presentationsteknik
+Kravspecifikation för programmeringsprojekt, delvis på engelska
+Metoder och god praxis för källkodshantering
 
-2020-05-03 : Inlämningsuppgift 3: The proof of concept
+Releaser:
+v1.0 Inlämningsuppgift 1: En god start
 
-2020-05-20 : Inlämningsuppgift 4: Från koncept till prototyp
+v2.0 Inlämningsuppgift 3: The proof of concept
+
+v3.0 Inlämningsuppgift 4: Från koncept till prototyp
+
+v4.0 Presentation av prototyp
 
 
-För att använda/starta projektet används följande kommandon:
+För att använda/starta projektet:
 
 <li>npm install</li> 
 (installerar node modules och andra paket)
