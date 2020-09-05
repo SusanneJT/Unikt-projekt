@@ -1,16 +1,19 @@
 # Unikt.se
 
 Moderna Webbapplikationer
+
 Ett längre projekt från kursen moderna webbapplikationer där målet var att utveckla en prototyp för en egen affärsidé utifrån kursens innehåll.
 
 Kursens innehåll:
-Fördjupning HTML5, CSS3 och Javascript
-SPA (Single Page Application)
-Lagring av data i webbläsare, exempelvis cookies, Web Storage och IndexedDB
-Moderna JavaScript ramverk, exempelvis Angular, React eller Vue
-Presentationsteknik
-Kravspecifikation för programmeringsprojekt, delvis på engelska
-Metoder och god praxis för källkodshantering
+<li>Fördjupning HTML5, CSS3 och Javascript</li>
+<li>SPA (Single Page Application)</li>
+<li>Lagring av data i webbläsare, exempelvis cookies, Web Storage och IndexedDB</li>
+<li>Moderna JavaScript ramverk, exempelvis Angular, React eller Vue</li>
+<li>Presentationsteknik</li>
+<li>Kravspecifikation för programmeringsprojekt, delvis på engelska</li>
+<li>Metoder och god praxis för källkodshantering</li>
+
+</br>
 
 Releaser:
 v1.0 Inlämningsuppgift 1: En god start
