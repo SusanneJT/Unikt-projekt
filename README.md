@@ -12,10 +12,10 @@ Kursens innehåll:
 <li>Presentationsteknik</li>
 <li>Kravspecifikation för programmeringsprojekt, delvis på engelska</li>
 <li>Metoder och god praxis för källkodshantering</li>
-
+<hr>
 </br>
 
-Releaser:
+Releaser: </br>
 v1.0 Inlämningsuppgift 1: En god start
 
 v2.0 Inlämningsuppgift 3: The proof of concept
@@ -24,7 +24,7 @@ v3.0 Inlämningsuppgift 4: Från koncept till prototyp
 
 v4.0 Presentation av prototyp
 
-
+<hr>
 För att använda/starta projektet:
 
 <li>npm install</li> 
