@@ -25,7 +25,7 @@ v3.0 Inlämningsuppgift 4: Från koncept till prototyp
 v4.0 Presentation av prototyp
 
 <hr>
-För att använda/starta projektet:
+För att testa/starta projektet:
 
 <li>npm install</li> 
 (installerar node modules och andra paket)
